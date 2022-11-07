@@ -435,7 +435,8 @@ footer a{
 footer .follow{
     margin-top: 20px;
 }
-footer .follow img{
+footer .follow i{
+    font-size: 24px;
     color: #465b52;
     padding-right: 8px;
     cursor: pointer;
@@ -443,7 +444,8 @@ footer .follow img{
 
 footer .install span{
     font-size: 23px;
-    color: #465b52;
+    color: #fff;
+    background-color: #088178;
     border: 2px solid #465b52;
     border-radius: 6px;
     padding: 10px 10px 10px 10px;
@@ -453,3 +455,19 @@ footer .install span{
 footer .copyright{
     text-align: center;
 }
+
+footer .install img{
+    padding-top: 10px;
+}
+
+/* Shoping Page */
+.comingsoon{
+    padding: 30px;
+}
+.cs{
+    text-align: center;
+}
+.cs img{
+    width: 60%;
+}
+
