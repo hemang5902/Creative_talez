@@ -17,22 +17,98 @@
         <div>
             <ul id="navbar">
                 <li><a id="home" href="home_page.html">Home</a></li>
-                <li><a id="shop" href="shopping.html" class="active">Shop</a></li>
+                <li><a id="shop" href="shopping.html">Shop</a></li>
                 <li><a id="shop" href="blog.html">Blog</a></li>
                 <li><a id="login" href="signupp_page.html">About</a></li>
-                <li><a id="contact" href="contact_page.html">Contact</a></li>
-                <li>
+                <li><a id="contact" href="contact_page.html" class="active">Contact</a></li>
+                <li id="lg-bag">
                     <lord-icon src="https://cdn.lordicon.com/udbbfuld.json" trigger="hover"
                         style="width: 30px; height: 30px; cursor: pointer;">
                     </lord-icon>
                 </li>
+                <a href="#" id="close"><i class='bx bx-x'></i></a>
             </ul>
+        </div>
+        <div id="mobile">
+            <lord-icon src="https://cdn.lordicon.com/udbbfuld.json" trigger="hover"
+                style="width: 32px; height: 32px; cursor: pointer;">
+            </lord-icon>
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, we love to hear from you!</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li><i class='bx bx-map-alt'></i>
+                    <p> Address goes here</p>
+                </li>
+                <li><i class='bx bxl-gmail'></i>
+                    <p> example@gmail.com</p>
+                </li>
+                <li><i class='bx bxs-phone'></i>
+                    <p>+91 123 4567 890</p>
+                </li>
+                <li><i class='bx bx-time'></i>
+                    <p> Monday - Saturday: 9.00am to 16.00pm</p>
+                </li>
+            </div>
+        </div>
+        <div class="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7364.573754418311!2d75.82399157485682!3d22.643090202491663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fb8d2060f2c5%3A0x1ef1233660c23a80!2sSilicon%20City%2C%20Indore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1667983211841!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+        <div class="people">
+            <div>
+                <img src="images/people/1.png" alt="">
+                <p><Span>Name goes here</Span> Senior Marketing Manager <br> Phone: +000 123 000 77 88 <br> E=mail:
+                    contact@gmail.com</p>
+            </div>
+            <div>
+                <img src="images/people/2.png" alt="">
+                <p><Span>Name goes here</Span> Senior Marketing Manager <br> Phone: +000 123 000 77 88 <br> E=mail:
+                    contact@gmail.com</p>
+            </div>
+            <div>
+                <img src="images/people/3.png" alt="">
+                <p><Span>Name goes here</Span> Senior Marketing Manager <br> Phone: +000 123 000 77 88 <br> E=mail:
+                    contact@gmail.com</p>
+            </div>
         </div>
     </section>
 
-
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
 
     <footer class="section-p1">
+        <!-- footer -->
         <div class="footerdiv">
             <div class="col">
                 <img class="logo" src="images/logo.png" alt="">
@@ -89,6 +165,6 @@
 </body>
 <!--JS script goes here-->
 <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
-
+<script src="script.js"></script>
 
 </html>
