@@ -105,7 +105,7 @@ body {
     transition: 0.3s ease;
 }
 
-#navbar li a:hover, 
+#navbar li a:hover,
 #navbar li a.active {
     color: #088178;
 }
@@ -178,7 +178,7 @@ body {
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
-} 
+}
 
 #feature .fe-box:hover{
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
@@ -598,6 +598,27 @@ footer .install img{
     color: #000;
 }
 
+/* about us page */
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-head div h2{
+    font-size: 85px;
+}
+#about-head div p{
+    font-size: 32px;
+}
+
+
 
 /* start media code */
 @media (max-width: 799px){
@@ -697,6 +718,22 @@ footer .install img{
     #form-details .people div {
         padding-left: 10px;
     }
+    #page-header {
+        background-position: top 0 right 100%;
+    }
+    #page-header h2 {
+        font-size: 65px;
+    }
+    #page-header p {
+        font-size: 22px;
+    }
+    /* about page */
+    #about-head div h2 {
+        font-size: 70px;
+    }
+    #about-head div p {
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 477px){
@@ -752,5 +789,43 @@ footer .install img{
     }
     footer p {
         font-size: 15px;
+    }
+    /* about page */
+    #about-head {
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div h2 {
+        font-size: 55px;
+    }
+    #about-head div p {
+        font-size: 20px;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+    /* contact page */
+
+    #contact-details {
+        flex-direction: column;
+    }
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #contact-details .map {
+        width: 100%;
+    }
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    #form-details form {
+        width: 100%;
+        padding-bottom: 30px;
     }
 }

@@ -13,3 +13,7 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+
+function msgFunction() {
+    alert("SORRY! This webpage is under development.");
+  }
